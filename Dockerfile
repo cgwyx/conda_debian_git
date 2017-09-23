@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Conda Development Team <conda@continuum.io>
+MAINTAINER cheng gong <512543469@qq.com>
 
 RUN apt-get -qq update && apt-get -qq -y install curl bzip2 git unzip \
     && curl -sSL https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -o /tmp/miniconda.sh \
